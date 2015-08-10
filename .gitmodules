@@ -4,3 +4,9 @@
 [submodule "puppet/modules/profile_jenkins"]
 	path = puppet/modules/profile_jenkins
 	url = git@github.com:roidelapluie/puppet-profile_jenkins.git
+[submodule "puppet/modules/stdlib"]
+	path = puppet/modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "puppet/modules/java"]
+	path = puppet/modules/java
+	url = https://github.com/puppetlabs/puppetlabs-java.git
