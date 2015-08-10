@@ -1,3 +1,6 @@
 [submodule "puppet/modules/jenkins"]
 	path = puppet/modules/jenkins
 	url = https://github.com/jenkinsci/puppet-jenkins
+[submodule "puppet/modules/profile_jenkins"]
+	path = puppet/modules/profile_jenkins
+	url = git@github.com:roidelapluie/puppet-profile_jenkins.git
