@@ -10,7 +10,7 @@ then
 sudo yum install http://yum.puppetlabs.com/puppetlabs-release-pc1-el-7.noarch.rpm -y
 sudo yum install -y puppet-agent
 fi
-sudo /opt/puppetlabs/bin/puppet apply --modulepath=/srv/puppet/modules --hiera_config /srv/puppet/hiera.yaml /srv/puppet/manifests
+sudo /opt/puppetlabs/bin/puppet apply --modulepath=/srv/puppet/modules --hiera_config /srv/puppet/hiera.yaml /srv/puppet/manifests --debug
   SHELL
 
   config.vm.define "jenkins" do |jenkins|
