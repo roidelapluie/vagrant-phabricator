@@ -10,3 +10,21 @@
 [submodule "puppet/modules/java"]
 	path = puppet/modules/java
 	url = https://github.com/puppetlabs/puppetlabs-java.git
+[submodule "puppet/modules/archive"]
+	path = puppet/modules/archive
+	url = https://github.com/camptocamp/puppet-archive.git
+[submodule "puppet/modules/jjb"]
+	path = puppet/modules/jjb
+	url = git@github.com:roidelapluie/puppet-jjb.git
+[submodule "puppet/modules/python"]
+	path = puppet/modules/python
+	url = https://github.com/stankevich/puppet-python
+[submodule "puppet/modules/epel"]
+	path = puppet/modules/epel
+	url = https://github.com/stahnma/puppet-module-epel
+[submodule "puppet/modules/profile_jjb"]
+	path = puppet/modules/profile_jjb
+	url = git@github.com:roidelapluie/puppet-profile_jjb.git
+[submodule "puppet/modules/cvsrepo"]
+	path = puppet/modules/cvsrepo
+	url = https://github.com/puppetlabs/puppetlabs-vcsrepo.git
