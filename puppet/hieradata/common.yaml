@@ -1,0 +1,14 @@
+---
+jenkins::plugin_hash:
+    'git': {}
+    'git-client': {}
+    'ansicolor': {}
+    'greenballs': {}
+    'jquery': {}
+    'rebuild': {}
+    'parameterized-trigger': {}
+    'scm-api': {}
+    'build-pipeline-plugin': {}
+
+profile_jjb::pipeline_path: /srv/git/git
+profile_jjb::pipeline: jjb-phabricator
