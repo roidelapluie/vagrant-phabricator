@@ -28,3 +28,6 @@
 [submodule "puppet/modules/cvsrepo"]
 	path = puppet/modules/cvsrepo
 	url = https://github.com/puppetlabs/puppetlabs-vcsrepo.git
+[submodule "git/jjb-phabricator"]
+	path = git/jjb-phabricator
+	url = git@github.com:roidelapluie/jjb-phabricator.git
